@@ -8,14 +8,14 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'HealthKitReporter'
-  s.version               = '3.1.0'
+  s.version               = '3.3.0'
   s.summary               = 'HealthKitReporter. A wrapper for HealthKit framework.'
   s.swift_versions        = '5.3'
   s.description           = 'Helps to write or read data from Apple Health via HealthKit framework.'
-  s.homepage              = 'https://github.com/VictorKachalov/HealthKitReporter'
+  s.homepage              = 'https://github.com/leancode/HealthKitReporter'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { 'Victor Kachalov' => 'victorkachalov@gmail.com' }
-  s.source                = { :git => 'https://github.com/VictorKachalov/HealthKitReporter.git', :tag => s.version.to_s }
+  s.source                = { :git => 'https://github.com/leancode/HealthKitReporter.git', :branch => 'activy' }
   s.social_media_url      = 'https://www.facebook.com/profile.php?id=1700091944'
   s.platform              = :ios, '9.0'
   s.ios.deployment_target = '9.0'
